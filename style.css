@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@400..800&family=Bitcount+Grid+Double:wght@100..900&family=Black+Ops+One&family=Caveat:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playwrite+HU:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Syne:wght@400..800&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(70, 69, 24, 0.781);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* signup */
+
+.signup-container {
+    margin-top: 45px;
+    height: 500px;
+    width: 400px;
+    box-shadow: 8px 8px 10px rgba(0,0,0,0.2);
+    background-color: rgba(70, 69, 24, 0.781);
+    border-radius: 20px;
+    text-align: center;
+}
+
+.signup-container h2 {
+    padding-top: 20px;
+    font-size: 2.8rem;
+    font-family: "Winky Rough", sans-serif;
+    color: rgba(0, 0, 0, 0.863);
+}
+
+.signup-form {
+    padding-top: 25px;
+}
+
+.signup-form input {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    margin-top: 20px;
+    width: 85%;
+    background-color: rgba(128, 126, 64, 0.781);
+    font-family: "Noto Sans", sans-serif;
+    border: none;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.signup-form input:focus {
+    outline: none;
+    border: 2px solid rgba(0, 0, 0, 0.863);
+}
+
+.signup-form input::placeholder {
+    color: rgba(0, 0, 0, 0.863);
+}
+
+.signup-form button {
+    padding: 8px 25px;
+    margin-top: 22px;
+    width: 85%;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 0.9rem;
+    background-color: rgba(27, 27, 13, 0.781);
+    color: rgba(245, 245, 245, 0.781);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.signup-form button:hover {
+    background-color: rgb(27, 27, 13);
+    transition: all 0.3s ease-in-out;
+}
+
+.signup-container p {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    font-family: "Noto Sans", sans-serif;
+}
+
+.signup-container p a {
+    color: rgba(245, 245, 245, 0.781);
+    text-decoration: none;
+}
+/* signup end */
+
+
+
+/* login */
+.login-container {
+    margin-top: 45px;
+    height: 400px;
+    width: 450px;
+    box-shadow: 8px 8px 10px rgba(0,0,0,0.2);
+    background-color: rgba(70, 69, 24, 0.781);
+    border-radius: 20px;
+    text-align: center;
+}
+
+.login-container h2 {
+    padding-top: 20px;
+    font-size: 3rem;
+    font-family: "Winky Rough", sans-serif;
+    color: rgba(0, 0, 0, 0.863);
+}
+
+.login-form {
+    padding-top: 50px;
+}
+
+.login-form input {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    margin-top: 20px;
+    width: 85%;
+    background-color: rgba(128, 126, 64, 0.781);
+    font-family: "Noto Sans", sans-serif;
+    border: none;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.login-form input:focus {
+    outline: none;
+    border: 2px solid rgba(0, 0, 0, 0.863);
+}
+
+.login-form input::placeholder {
+    color: rgba(0, 0, 0, 0.863);
+}
+
+.login-form button {
+    padding: 8px 25px;
+    margin-top: 40px;
+    width: 85%;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 0.9rem;
+    background-color: rgba(27, 27, 13, 0.781);
+    color: rgba(245, 245, 245, 0.781);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.login-form button:hover {
+    background-color: rgb(27, 27, 13);
+    transition: all 0.3s ease-in-out;
+}
+
+.login-container p {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    font-family: "Noto Sans", sans-serif;
+}
+
+.login-container p a {
+    color: rgba(245, 245, 245, 0.781);
+    text-decoration: none;
+}
+/* login end */
+
+
+
+/* quiz */
+.quiz-container {
+    margin-top: 45px;
+    width: 500px;
+    height: 500px;
+    box-shadow: 8px 8px 10px rgba(0,0,0,0.2);
+    background-color: rgba(70, 69, 24, 0.781);
+    border-radius: 20px;
+    text-align: center;
+}
+
+.quiz-container h2 {
+    padding-top: 20px;
+    font-size: 2rem;
+    font-family: "Winky Rough", sans-serif;
+    color: rgba(0, 0, 0, 0.863);
+}
+
+.quiz-container .timer {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Noto Sans", sans-serif;
+    color: rgba(0, 0, 0, 0.863);
+}
+
+.options-container {
+    padding-top: 25px;
+}
+
+.quiz-container .option-btn {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    margin-top: 15px;
+    width: 85%;
+    background-color: rgba(128, 126, 64, 0.781);
+    font-family: "Noto Sans", sans-serif;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.quiz-container .option-btn:hover {
+    background-color: rgba(27, 27, 13, 0.781);
+    transition: all 0.4s ease-in-out;
+    color: antiquewhite;
+}
+
+.quiz-container .option-btn:focus {
+    background-color: rgba(27, 27, 13, 0.781);
+    color: antiquewhite;
+}
+
+.quiz-container .next-btn {
+    background-color: rgba(27, 27, 13, 0.781);
+    color: rgba(245, 245, 245, 0.781);
+    border: none;
+    padding: 8px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    margin-top: 30px;
+    width: 85%;
+    font-family: "Noto Sans", sans-serif;
+    /* display: none; Start hidden */
+    transform: scale(0); /* Start small */
+    transition: transform 0.3s ease;
+}
+
+.quiz-container .next-btn:hover {
+    background-color: rgb(19, 19, 9);
+    transition: all 0.3s ease-in-out;
+}
+/* quiz end */
+
+
+
+/* result */
+.result-container {
+    width: 550px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10%;
+    box-shadow: 8px 8px 10px rgba(0,0,0,0.2);
+    background-color: rgba(70, 69, 24, 0.781);
+    border-radius: 20px;
+}
+
+.result-container h1 {
+    font-size: 3rem;
+    margin-bottom: 35px;
+    font-family: "Winky Rough", sans-serif;
+}
+
+.result-container .score {
+    font-size: 1.5rem;
+    font-family: "Noto Sans", sans-serif;
+}
+
+.result-container .percentage {
+    font-size: 1.3rem;
+    margin-bottom: 35px;
+    font-family: "Noto Sans", sans-serif;
+}
+
+.restart-btn {
+    background-color: rgba(27, 27, 13, 0.781);
+    color: rgba(245, 245, 245, 0.781);
+    border: none;
+    padding: 8px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    width: 50%;
+    font-family: "Noto Sans", sans-serif;
+}
+.restart-btn:hover {
+    background-color: rgb(19, 19, 9);
+    transition: all 0.3s ease-in-out;
+}
+/* result end */
+
+
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .signup-container {
+        width: 85%;
+        height: 500px;
+    }
+
+    .login-container {
+        width: 85%;
+        height: 360px;
+    }
+
+    .quiz-container {
+        width: 90%;
+        height: 500px;
+    }
+
+    .quiz-container .next-btn {
+        margin-top: 30px;
+    }
+
+    .result-container {
+        width: 90%;
+        height: 300px;
+    }
+
+    .signup-container h2, .login-container h2, .result-container h1 {
+        font-size: 2.5rem;
+    }
+
+    .signup-form input, .login-form input, .quiz-container .option-btn, .quiz-container .next-btn, .result-container {
+        width: 90%;
+    }
+
+    .restart-btn {
+        width: 50%;
+    }
+}
+
+@media (max-width: 445px) {
+    .signup-container, .login-container{
+        width: 85%;
+    }
+    
+    .quiz-container, .result-container {
+        width: 95%;
+    }
+
+    .signup-container h2, .login-container h2, .quiz-container h2, .result-container h1 {
+        font-size: 1.8rem;
+    }
+
+    .signup-form input, .login-form input, .quiz-container .option-btn, .quiz-container .next-btn, .result-container {
+        width: 90%;
+    }
+
+    .restart-btn {
+        width: 50%;
+    }
+}
